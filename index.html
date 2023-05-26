@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Music,Acoording to your Mood</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;0,800;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo.png" alt="Spotify" /> Spotify</li>
+        <li><a href="#Home" class="link">Home</a></li>
+        <li><a href="#About" class="link">About</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="songList">
+        <h1>Top Trending India</h1>
+        <h3>
+          Listen to most relaxing and chilling songs only on Spotify! chill
+          beats to relax and focus!
+        </h3>
+        <div class="songItemContainer">
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Let me Love You</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >03:07
+                <i id="0" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Let me Love You</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >03:32
+                <i id="1" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Let me Love You</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >03:32
+                <i id="2" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Let me Love You</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >02:35
+                <i id="3" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Let me Love You</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >03:14
+                <i id="4" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Let me Love You</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >02:40
+                <i id="5" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Let me Love You</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >02:50
+                <i id="6" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+          <div class="songItem">
+            <img alt="1" />
+            <span class="songName">Let me Love You</span>
+            <span class="songlistplay"
+              ><span class="timestamp"
+                >02:13
+                <i id="7" class="far songItemPlay fa-play-circle"></i> </span
+            ></span>
+          </div>
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        id="myProgressBar"
+        min="0"
+        value="0"
+        max="100"
+      />
+      <div class="icons">
+        <!-- fontawesome icons -->
+        <i class="fas fa-3x fa-step-backward" id="previous"></i>
+        <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+        <i class="fas fa-3x fa-step-forward" id="next"></i>
+      </div>
+      <div class="songInfo">
+        <img src="playing.gif" width="120px" height="24px" alt="" id="gif" />
+        <p id="masterSongName">Falling - Luke Baker</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/26504e4a1f.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
